@@ -1,0 +1,16 @@
+/***************
+     MIXINS
+****************/
+
+/*
+Para trabajar eficazmente con mixins, solo se necesitan dos directivas: @mixin e @include: con la primera se crea el modelo, con la segunda se inserta el bloque de código
+*/
+
+@mixin big-blue-text {
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bold;
+    color:#0000ff;
+    } 
+
+@include big-blue-text;
